@@ -18,19 +18,19 @@ Each client is handled in a separate thread, ensuring smooth concurrency and res
    git clone https://github.com/your-username/chat-room.git
    cd chat-room
 2. Compile the server and client programs
-```bash
-g++ server.cpp -lpthread -o server
-g++ client.cpp -lpthread -o client
+   ```bash
+   g++ server.cpp -lpthread -o server
+   g++ client.cpp -lpthread -o client
 
 
 3. Run the server application
-```bash
-./server
+   ```bash
+   ./server
 
 
 4. Open another terminal and run a client application
-```bash
-./client
+   ```bash
+   ./client
 
 
 5. To simulate multiple clients, repeat step 4 in additional terminals.
