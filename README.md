@@ -1,33 +1,24 @@
-# Chat-Application
-This project is a chat room application developed in C++ using socket programming and multi-threading. It demonstrates how real-time communication systems are built at the systems level, focusing on concurrency, synchronization, and networking in a Linux environment.
+# Chatroom Application
 
-How to Run
+A chatroom built in C++ using the concepts of socket programming and multi-threading. It supports chatting among multiple clients.
+
+![](/screenshot.png)
+## How to run
 
 1. Clone this repository
-
-git clone https://github.com/your-username/chat-room.git
-cd chat-room
-
-
-2. Compile the server
-
+2. Run the following commands in your terminal :
+```
 g++ server.cpp -lpthread -o server
-
-
-3. Compile the client
-
 g++ client.cpp -lpthread -o client
-
-
-4. Run the server
-
+```
+3. To run the server application, use this command in the terminal :
+```
 ./server
+```
 
-
-5. Run a client in another terminal
-
+4. Now, open another terminal and use this command to run the client application :
+```
 ./client
+```
 
-
-Open multiple clients
-Repeat step 5 in additional terminals to simulate multiple participants in the chat room.
+5. For opening multiple client applications, repeat step 4.
